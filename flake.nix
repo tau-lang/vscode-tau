@@ -1,5 +1,5 @@
 {
-  description = "tau-vscode flake";
+  description = "vscode-tau flake";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
@@ -49,16 +49,17 @@
           };
           packages.default = pkgs.vscode-utils.buildVscodeMarketplaceExtension {
             mktplcRef = {
-              name = "tau";
+              name = "tau-lang";
               publisher = "tau-lang";
               version = "0.0.1";
+              sha256 = "sha256-OATAgYRcjFiGg9w1WtY8gpW8+SStP4JZqe3f8//Y0+w=";
             };
 
             meta = {
-              changelog = "https://codeberg.org/tau-lang/tau-vscode/src/branch/main/CHANGELOG.md";
+              changelog = "https://codeberg.org/tau-lang/vscode-tau/src/branch/main/CHANGELOG.md";
               description = "Java Platform Extension for Visual Studio Code";
               downloadPage = "https://marketplace.visualstudio.com/items?itemName=tau-lang.tau";
-              homepage = "https://codeberg.org/tau-lang/tau-vscode/";
+              homepage = "https://codeberg.org/tau-lang/vscode-tau/";
               license = lib.licenses.eupl12;
               maintainers = [lib.maintainers.kiyotoko];
             };

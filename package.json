@@ -4,7 +4,7 @@
   "description": "Syntax highlighting support for the experimental Tau language.",
   "version": "0.0.1",
   "publisher": "tau-lang",
-  "repository": "https://codeberg.org/tau-lang/tau-vscode",
+  "repository": "https://codeberg.org/tau-lang/vscode-tau",
   "engines": {
     "vscode": "^1.140.0"
   },
