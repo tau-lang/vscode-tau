@@ -1,5 +1,5 @@
 {
-  "name": "tau",
+  "name": "tau-lang",
   "displayName": "Tau Syntax Highlighter",
   "description": "Syntax highlighting support for the experimental Tau language.",
   "version": "0.0.1",

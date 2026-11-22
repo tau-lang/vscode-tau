@@ -1,4 +1,10 @@
 .vscode/**
 .vscode-test/**
 .gitignore
-vsc-extension-quickstart.md
+
+# Nix files
+result
+flake.*
+
+# Tau examples
+examples/
