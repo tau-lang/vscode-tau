@@ -51,7 +51,7 @@
             mktplcRef = {
               name = "tau-lang";
               publisher = "tau-lang";
-              version = "0.0.1";
+              version = "0.0.2";
               sha256 = "sha256-OATAgYRcjFiGg9w1WtY8gpW8+SStP4JZqe3f8//Y0+w=";
             };
 
