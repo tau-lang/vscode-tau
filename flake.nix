@@ -52,7 +52,7 @@
               name = "tau-lang";
               publisher = "tau-lang";
               version = "0.0.2";
-              sha256 = "sha256-OATAgYRcjFiGg9w1WtY8gpW8+SStP4JZqe3f8//Y0+w=";
+              sha256 = "sha256-kuW5zlARE4d7Qvlji+cBTBUIqqROMmDpg3wjylD+Ryo=";
             };
 
             meta = {
